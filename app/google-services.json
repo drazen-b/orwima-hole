@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "34108306849",
+    "project_id": "hole-v2",
+    "storage_bucket": "hole-v2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34108306849:android:6ec596665f52a2f298c7e0",
+        "android_client_info": {
+          "package_name": "com.drazenbertic.hole_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34108306849-v80e05itsjaq0gnn24aqq70cdefjijmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDlHK3dU-cjQlDou4BLWXkWKoxpcf79Fg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34108306849-v80e05itsjaq0gnn24aqq70cdefjijmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

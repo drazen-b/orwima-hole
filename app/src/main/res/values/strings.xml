@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Hole_v2</string>
+    <string name="tlCoins">Coins</string>
+    <string name="tlPortfolio">Portfolio</string>
+    <string name="tlSearch">Search</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="twTb_Portfolio">portfolio</string>
+    <string name="twPortfolioBalance">Balance:</string>
+    <string name="twPortfolioBalanceValue">Value</string>
+    <string name="stringIconDescription">App Icon</string>
+    <string name="tbAppTitle">Hole</string>
+    <string name="twMainPortfolio">Portfolio:</string>
+    <string name="etSearchBar">Search</string>
+    <string name="tvSearchCoinName">Coin Name</string>
+    <string name="tvSearchCoinSymbol">Symbol</string>
+    <string name="test">test</string>
+    <string name="tvCoinInformationID">ID</string>
+    <string name="amount">Amount</string>
+    <string name="price">Price</string>
+    <string name="coin">Coin</string>
+    <string name="id">ID</string>
+    <string name="position">#.</string>
+    <string name="gain">Gain</string>
+    <string name="update_coin">Update Coin</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="update">Update</string>
+    <string name="delete_coin">Delete coin</string>
+    <string name="add_coin">Add Coin</string>
+    <string name="add">Add</string>
+    <string name="description_text">Description text</string>
+    <string name="value">VALUE</string>
+    <string name="tradinng_volume">Tradinng Volume</string>
+    <string name="total_supply">Total Supply:</string>
+    <string name="market_cap">Market Cap:</string>
+    <string name="market_cap_rank">Market Cap Rank:</string>
+    <string name="market_value">Market Value</string>
+    <string name="amountt">AMOUNT</string>
+    <string name="add_coind">Add coin</string>
+    <string name="x">X</string>
+    <string name="_0_0">0.0</string>
+</resources>

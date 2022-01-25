@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@color/gray">
+
+    <TextView
+        android:id="@+id/tvDialogUpdateCoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="@string/update_coin"
+        android:textSize="22sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etDialogAddAmountToPortfolio"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:hint="@string/enter_amount"
+        android:inputType="numberDecimal"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray_light"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDialogUpdateCoin" />
+
+    <Button
+        android:id="@+id/btnDialogUpdatePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="monospace"
+        android:text="@string/update"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/etDialogAddAmountToPortfolio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/etDialogAddAmountToPortfolio"
+        app:layout_constraintTop_toTopOf="@+id/etDialogAddAmountToPortfolio" />
+
+    <Button
+        android:id="@+id/btnDialogDeleteCoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="monospace"
+        android:text="@string/delete_coin"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etDialogAddAmountToPortfolio" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

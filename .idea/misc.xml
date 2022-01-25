@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.38796296296296295" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3907407407407407" />
+        <entry key="app/src/main/res/drawable/box_rounded_corners.xml" value="0.7953703703703704" />
+        <entry key="app/src/main/res/drawable/fully_rounded_edges.xml" value="0.7129629629629629" />
+        <entry key="app/src/main/res/drawable/rounded_portfolio.xml" value="0.9143589743589744" />
+        <entry key="app/src/main/res/layout/activity_coin_information.xml" value="0.5708333333333333" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.5592592592592592" />
+        <entry key="app/src/main/res/layout/dialog_add_coin_to_portfolio.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/dialog_update_coin.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/fragment_coin_information.xml" value="0.771875" />
+        <entry key="app/src/main/res/layout/fragment_coins.xml" value="0.812989921612542" />
+        <entry key="app/src/main/res/layout/fragment_portfolio.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.7370558375634517" />
+        <entry key="app/src/main/res/layout/rvelement_coin_info.xml" value="0.7145833333333333" />
+        <entry key="app/src/main/res/layout/rvelement_portfoliocoin.xml" value="0.5703125" />
+        <entry key="app/src/main/res/layout/rvelement_simplecoin.xml" value="0.67" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3907407407407407" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
