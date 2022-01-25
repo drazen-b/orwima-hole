@@ -104,7 +104,7 @@ class PortfolioFragment : Fragment() {
 
     }
 
-
+//Ove su dvije funkcije nepotrebne
     private fun saveBalance(price: Float) = CoroutineScope(Dispatchers.IO).launch {
         var balance = TotalBalance(price)
 
