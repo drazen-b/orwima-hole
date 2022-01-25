@@ -42,8 +42,6 @@ class   SearchFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
 
-
-        //It listens for changes and modifies the displayed list
         etSearchCoin.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
             }
@@ -60,7 +58,7 @@ class   SearchFragment : Fragment() {
     }
 
 
-//  With thus function we call API and set basic list of all 12k coins
+
     private fun callApi() {
         val request = ServiceBuilder.buildService(CoinGeckoEndPoints::class.java)
         val call = request.getAllCoins()
@@ -83,7 +81,7 @@ class   SearchFragment : Fragment() {
         })
     }
 
-//  With this we filter listCoins and display searched items
+
     fun filter(input: String){
         var coinsFiltered: List<Coin> = ArrayList()
 
