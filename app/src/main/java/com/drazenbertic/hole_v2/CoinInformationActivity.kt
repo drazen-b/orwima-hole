@@ -40,8 +40,6 @@ class CoinInformationActivity : AppCompatActivity() {
 
 
 
-
-//      With thus function we call API for specific coin information and set basic list of all 12k coins
     private fun callCoinApi(id: String) {
 
 
